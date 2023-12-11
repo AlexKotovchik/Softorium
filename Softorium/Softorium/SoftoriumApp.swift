@@ -11,7 +11,8 @@ import SwiftUI
 struct SoftoriumApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContainerView()
+                .preferredColorScheme(.dark)
         }
     }
 }

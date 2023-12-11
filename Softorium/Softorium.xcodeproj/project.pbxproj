@@ -8,17 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		E7517E912B2325BF0004FED5 /* SoftoriumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7517E902B2325BF0004FED5 /* SoftoriumApp.swift */; };
-		E7517E932B2325BF0004FED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7517E922B2325BF0004FED5 /* ContentView.swift */; };
 		E7517E952B2325C30004FED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7517E942B2325C30004FED5 /* Assets.xcassets */; };
 		E7517E982B2325C30004FED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7517E972B2325C30004FED5 /* Preview Assets.xcassets */; };
+		E79F33BB2B2329400016DB7D /* PreloaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33BA2B2329400016DB7D /* PreloaderView.swift */; };
+		E79F33BE2B232FBD0016DB7D /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33BD2B232FBD0016DB7D /* Color + Extension.swift */; };
+		E79F33DF2B2335740016DB7D /* Font + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33DE2B2335740016DB7D /* Font + Extension.swift */; };
+		E79F33E62B2345660016DB7D /* TopTradersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33E52B2345660016DB7D /* TopTradersView.swift */; };
+		E79F33E82B2345A10016DB7D /* TopTradersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33E72B2345A10016DB7D /* TopTradersViewModel.swift */; };
+		E79F33EA2B2371780016DB7D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33E92B2371780016DB7D /* MainTabView.swift */; };
+		E79F33ED2B23850A0016DB7D /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33EC2B23850A0016DB7D /* TradeView.swift */; };
+		E79F33EF2B2669E40016DB7D /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33EE2B2669E40016DB7D /* TradeViewModel.swift */; };
+		E79F33F12B26720D0016DB7D /* CurrencyPickerGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33F02B26720C0016DB7D /* CurrencyPickerGrid.swift */; };
+		E79F33F22B267D7F0016DB7D /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E79F33E32B2337EF0016DB7D /* Inter-Bold.ttf */; };
+		E79F33F32B267D810016DB7D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E79F33E22B2337EF0016DB7D /* Inter-SemiBold.ttf */; };
+		E79F33F42B267D840016DB7D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E79F33DC2B2334740016DB7D /* Inter-Regular.ttf */; };
+		E79F33F72B269A080016DB7D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33F62B269A080016DB7D /* BackButton.swift */; };
+		E79F33FA2B26AE630016DB7D /* TabBarBackgroundColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33F92B26AE630016DB7D /* TabBarBackgroundColorModifier.swift */; };
+		E79F33FC2B26AEDA0016DB7D /* DismissKeyboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33FB2B26AEDA0016DB7D /* DismissKeyboardModifier.swift */; };
+		E79F33FE2B26AF340016DB7D /* ListBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F33FD2B26AF340016DB7D /* ListBackgroundModifier.swift */; };
+		E79F34032B26B5EE0016DB7D /* MainContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F34022B26B5EE0016DB7D /* MainContainerView.swift */; };
+		E79F34052B26B6440016DB7D /* MainContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F34042B26B6440016DB7D /* MainContainerViewModel.swift */; };
+		E79F340A2B26B8E50016DB7D /* Trader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F34092B26B8E50016DB7D /* Trader.swift */; };
+		E79F340C2B26B9840016DB7D /* CurrencyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F340B2B26B9840016DB7D /* CurrencyPair.swift */; };
+		E79F340E2B26F3900016DB7D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79F340D2B26F3900016DB7D /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7517E8D2B2325BF0004FED5 /* Softorium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Softorium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7517E902B2325BF0004FED5 /* SoftoriumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftoriumApp.swift; sourceTree = "<group>"; };
-		E7517E922B2325BF0004FED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7517E942B2325C30004FED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7517E972B2325C30004FED5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E79F33BA2B2329400016DB7D /* PreloaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreloaderView.swift; sourceTree = "<group>"; };
+		E79F33BD2B232FBD0016DB7D /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
+		E79F33D92B23343B0016DB7D /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		E79F33DC2B2334740016DB7D /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		E79F33DD2B2334C80016DB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79F33DE2B2335740016DB7D /* Font + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font + Extension.swift"; sourceTree = "<group>"; };
+		E79F33E22B2337EF0016DB7D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		E79F33E32B2337EF0016DB7D /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		E79F33E52B2345660016DB7D /* TopTradersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTradersView.swift; sourceTree = "<group>"; };
+		E79F33E72B2345A10016DB7D /* TopTradersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTradersViewModel.swift; sourceTree = "<group>"; };
+		E79F33E92B2371780016DB7D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E79F33EC2B23850A0016DB7D /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		E79F33EE2B2669E40016DB7D /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
+		E79F33F02B26720C0016DB7D /* CurrencyPickerGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerGrid.swift; sourceTree = "<group>"; };
+		E79F33F62B269A080016DB7D /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		E79F33F92B26AE630016DB7D /* TabBarBackgroundColorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarBackgroundColorModifier.swift; sourceTree = "<group>"; };
+		E79F33FB2B26AEDA0016DB7D /* DismissKeyboardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardModifier.swift; sourceTree = "<group>"; };
+		E79F33FD2B26AF340016DB7D /* ListBackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBackgroundModifier.swift; sourceTree = "<group>"; };
+		E79F34022B26B5EE0016DB7D /* MainContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerView.swift; sourceTree = "<group>"; };
+		E79F34042B26B6440016DB7D /* MainContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerViewModel.swift; sourceTree = "<group>"; };
+		E79F34092B26B8E50016DB7D /* Trader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trader.swift; sourceTree = "<group>"; };
+		E79F340B2B26B9840016DB7D /* CurrencyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPair.swift; sourceTree = "<group>"; };
+		E79F340D2B26F3900016DB7D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +93,13 @@
 		E7517E8F2B2325BF0004FED5 /* Softorium */ = {
 			isa = PBXGroup;
 			children = (
+				E79F34082B26B8A80016DB7D /* Models */,
+				E79F33FF2B26B5460016DB7D /* Views */,
+				E79F33BC2B232FA60016DB7D /* Extensions */,
+				E79F33F82B26AE2A0016DB7D /* ViewModifiers */,
 				E7517E902B2325BF0004FED5 /* SoftoriumApp.swift */,
-				E7517E922B2325BF0004FED5 /* ContentView.swift */,
-				E7517E942B2325C30004FED5 /* Assets.xcassets */,
+				E79F33DD2B2334C80016DB7D /* Info.plist */,
+				E79F33DA2B2334490016DB7D /* Resources */,
 				E7517E962B2325C30004FED5 /* Preview Content */,
 			);
 			path = Softorium;
@@ -63,8 +109,122 @@
 			isa = PBXGroup;
 			children = (
 				E7517E972B2325C30004FED5 /* Preview Assets.xcassets */,
+				E79F33D92B23343B0016DB7D /* Inter-Regular.ttf */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E79F33B92B23292A0016DB7D /* PreloaderView */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33BA2B2329400016DB7D /* PreloaderView.swift */,
+			);
+			path = PreloaderView;
+			sourceTree = "<group>";
+		};
+		E79F33BC2B232FA60016DB7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33BD2B232FBD0016DB7D /* Color + Extension.swift */,
+				E79F33DE2B2335740016DB7D /* Font + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E79F33DA2B2334490016DB7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33DB2B2334640016DB7D /* Fonts */,
+				E7517E942B2325C30004FED5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E79F33DB2B2334640016DB7D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33E32B2337EF0016DB7D /* Inter-Bold.ttf */,
+				E79F33E22B2337EF0016DB7D /* Inter-SemiBold.ttf */,
+				E79F33DC2B2334740016DB7D /* Inter-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E79F33E42B23454D0016DB7D /* TopTradersView */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33E52B2345660016DB7D /* TopTradersView.swift */,
+				E79F33E72B2345A10016DB7D /* TopTradersViewModel.swift */,
+			);
+			path = TopTradersView;
+			sourceTree = "<group>";
+		};
+		E79F33EB2B2384F30016DB7D /* TradeView */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33EC2B23850A0016DB7D /* TradeView.swift */,
+				E79F33EE2B2669E40016DB7D /* TradeViewModel.swift */,
+				E79F33F52B2699CA0016DB7D /* UIComponents */,
+			);
+			path = TradeView;
+			sourceTree = "<group>";
+		};
+		E79F33F52B2699CA0016DB7D /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33F62B269A080016DB7D /* BackButton.swift */,
+				E79F340D2B26F3900016DB7D /* WebView.swift */,
+				E79F33F02B26720C0016DB7D /* CurrencyPickerGrid.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		E79F33F82B26AE2A0016DB7D /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33F92B26AE630016DB7D /* TabBarBackgroundColorModifier.swift */,
+				E79F33FB2B26AEDA0016DB7D /* DismissKeyboardModifier.swift */,
+				E79F33FD2B26AF340016DB7D /* ListBackgroundModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		E79F33FF2B26B5460016DB7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E79F34012B26B5CF0016DB7D /* MainContainerView */,
+				E79F34002B26B57C0016DB7D /* MainTabView */,
+				E79F33B92B23292A0016DB7D /* PreloaderView */,
+				E79F33E42B23454D0016DB7D /* TopTradersView */,
+				E79F33EB2B2384F30016DB7D /* TradeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E79F34002B26B57C0016DB7D /* MainTabView */ = {
+			isa = PBXGroup;
+			children = (
+				E79F33E92B2371780016DB7D /* MainTabView.swift */,
+			);
+			path = MainTabView;
+			sourceTree = "<group>";
+		};
+		E79F34012B26B5CF0016DB7D /* MainContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				E79F34022B26B5EE0016DB7D /* MainContainerView.swift */,
+				E79F34042B26B6440016DB7D /* MainContainerViewModel.swift */,
+			);
+			path = MainContainerView;
+			sourceTree = "<group>";
+		};
+		E79F34082B26B8A80016DB7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E79F34092B26B8E50016DB7D /* Trader.swift */,
+				E79F340B2B26B9840016DB7D /* CurrencyPair.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79F33F32B267D810016DB7D /* Inter-SemiBold.ttf in Resources */,
+				E79F33F42B267D840016DB7D /* Inter-Regular.ttf in Resources */,
+				E79F33F22B267D7F0016DB7D /* Inter-Bold.ttf in Resources */,
 				E7517E982B2325C30004FED5 /* Preview Assets.xcassets in Resources */,
 				E7517E952B2325C30004FED5 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +300,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7517E932B2325BF0004FED5 /* ContentView.swift in Sources */,
+				E79F33FC2B26AEDA0016DB7D /* DismissKeyboardModifier.swift in Sources */,
+				E79F33BE2B232FBD0016DB7D /* Color + Extension.swift in Sources */,
 				E7517E912B2325BF0004FED5 /* SoftoriumApp.swift in Sources */,
+				E79F33EF2B2669E40016DB7D /* TradeViewModel.swift in Sources */,
+				E79F340E2B26F3900016DB7D /* WebView.swift in Sources */,
+				E79F34052B26B6440016DB7D /* MainContainerViewModel.swift in Sources */,
+				E79F34032B26B5EE0016DB7D /* MainContainerView.swift in Sources */,
+				E79F33ED2B23850A0016DB7D /* TradeView.swift in Sources */,
+				E79F33FE2B26AF340016DB7D /* ListBackgroundModifier.swift in Sources */,
+				E79F33FA2B26AE630016DB7D /* TabBarBackgroundColorModifier.swift in Sources */,
+				E79F33EA2B2371780016DB7D /* MainTabView.swift in Sources */,
+				E79F340C2B26B9840016DB7D /* CurrencyPair.swift in Sources */,
+				E79F33E82B2345A10016DB7D /* TopTradersViewModel.swift in Sources */,
+				E79F33DF2B2335740016DB7D /* Font + Extension.swift in Sources */,
+				E79F340A2B26B8E50016DB7D /* Trader.swift in Sources */,
+				E79F33F72B269A080016DB7D /* BackButton.swift in Sources */,
+				E79F33F12B26720D0016DB7D /* CurrencyPickerGrid.swift in Sources */,
+				E79F33E62B2345660016DB7D /* TopTradersView.swift in Sources */,
+				E79F33BB2B2329400016DB7D /* PreloaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +455,7 @@
 				DEVELOPMENT_TEAM = 5YX78AXA2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Softorium/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +486,7 @@
 				DEVELOPMENT_TEAM = 5YX78AXA2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Softorium/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
